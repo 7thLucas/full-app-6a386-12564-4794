@@ -18,7 +18,7 @@ Early onboarding — core details are being gathered. The sections below will be
 ---
 
 ## Target Audience
-TBD — to be defined during onboarding (A1 goal questions).
+**Everyone** — the platform is intentionally broad. Primary focus: upcoming entrepreneurs, small business owners, and early-stage founders who are priced out of advertising on existing platforms. Secondary: creators, freelancers, and general users who want a fairer, less restrictive social network to connect and promote their work.
 
 ---
 
