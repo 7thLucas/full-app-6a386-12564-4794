@@ -1,0 +1,68 @@
+<style>
+.mode-landscape .sl-cols { flex-direction: row; gap: 1.5rem; }
+.mode-portrait .sl-cols { flex-direction: column; gap: 1rem; }
+.mode-landscape .sl-problem { width: 44%; }
+.mode-landscape .sl-solution { width: 56%; }
+.mode-portrait .sl-problem { width: 100%; }
+.mode-portrait .sl-solution { width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10">
+
+    <p class="text-indigo-600 text-xs font-bold tracking-widest uppercase mb-8">Foundation</p>
+
+    <div class="sl-cols flex flex-1">
+
+      <!-- Problem -->
+      <div class="sl-problem">
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-7 h-full flex flex-col">
+          <div class="w-9 h-9 bg-rose-100 rounded-xl flex items-center justify-center mb-5">
+            <div class="w-4 h-4 rounded-full bg-rose-400"></div>
+          </div>
+          <h2 class="text-slate-800 text-xl font-bold mb-4">The Problem</h2>
+          <p class="text-slate-600 text-sm leading-relaxed mb-5">
+            Online social spaces have become noisy and fragmented. Users are buried under algorithmic feeds they didn't choose and abandon platforms within days of joining.
+          </p>
+          <ul class="space-y-2.5 mt-auto">
+            <li class="flex items-start gap-2 text-slate-600 text-sm">
+              <span class="text-rose-400 font-bold mt-0.5 shrink-0">✕</span>
+              High drop-off rate after first visit
+            </li>
+            <li class="flex items-start gap-2 text-slate-600 text-sm">
+              <span class="text-rose-400 font-bold mt-0.5 shrink-0">✕</span>
+              Shallow interactions, low session depth
+            </li>
+            <li class="flex items-start gap-2 text-slate-600 text-sm">
+              <span class="text-rose-400 font-bold mt-0.5 shrink-0">✕</span>
+              Communities fragmented across platforms
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Solution -->
+      <div class="sl-solution">
+        <div class="bg-indigo-600 rounded-2xl p-7 h-full flex flex-col">
+          <div class="w-9 h-9 bg-white bg-opacity-20 rounded-xl flex items-center justify-center mb-5">
+            <div class="w-4 h-4 rounded-full bg-white"></div>
+          </div>
+          <h2 class="text-white text-xl font-bold mb-4">The Solution</h2>
+          <p class="text-indigo-100 text-sm leading-relaxed mb-6">
+            A social network platform purpose-built around the simplest, stickiest loop: post content, follow the people you care about, engage meaningfully. No algorithmic noise — just the connections you chose.
+          </p>
+          <div class="mt-auto space-y-3">
+            <div class="bg-white bg-opacity-15 rounded-xl px-5 py-4">
+              <p class="text-white text-sm font-bold mb-1">Frictionless onboarding</p>
+              <p class="text-indigo-200 text-xs leading-relaxed">New users reach their first meaningful interaction in under 60 seconds.</p>
+            </div>
+            <div class="bg-white bg-opacity-15 rounded-xl px-5 py-4">
+              <p class="text-white text-sm font-bold mb-1">Retention by design</p>
+              <p class="text-indigo-200 text-xs leading-relaxed">Feed quality and notification relevance are prioritised over volume — every signal earns its place.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
