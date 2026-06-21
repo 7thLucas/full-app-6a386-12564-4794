@@ -1,0 +1,61 @@
+<style>
+.mode-landscape .sl-grid { grid-template-columns: repeat(2, 1fr); }
+.mode-portrait .sl-grid { grid-template-columns: 1fr; }
+.mode-landscape .sl-banner { grid-column: 1 / -1; }
+.mode-portrait .sl-banner { grid-column: 1; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10">
+
+    <p class="text-indigo-600 text-xs font-bold tracking-widest uppercase mb-2">Benefits</p>
+    <h2 class="text-slate-900 text-2xl font-black mb-5">Outcomes that drive retention</h2>
+
+    <div class="sl-grid grid gap-3 flex-1">
+
+      <!-- Metric: Onboarding -->
+      <div class="bg-slate-900 rounded-2xl p-6 flex flex-col justify-between">
+        <p class="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-3">Onboarding Speed</p>
+        <div>
+          <p class="text-white font-black mb-2" style="font-size:2.4rem;">&lt; 60s</p>
+          <p class="text-slate-300 text-sm leading-relaxed">Time from signup to first meaningful interaction — frictionless by design, not by accident.</p>
+        </div>
+      </div>
+
+      <!-- Metric: Feed Quality -->
+      <div class="bg-indigo-600 rounded-2xl p-6 flex flex-col justify-between">
+        <p class="text-indigo-200 text-xs font-semibold uppercase tracking-wider mb-3">Feed Quality</p>
+        <div>
+          <p class="text-white font-black mb-2" style="font-size:2.4rem;">Signal</p>
+          <p class="text-indigo-100 text-sm leading-relaxed">Feeds ranked by relevance over volume. Users see content from people they actually chose to follow — no algorithmic noise.</p>
+        </div>
+      </div>
+
+      <!-- Metric: Connections -->
+      <div class="bg-violet-50 border border-violet-100 rounded-2xl p-6 flex flex-col justify-between">
+        <p class="text-violet-600 text-xs font-semibold uppercase tracking-wider mb-3">Connection Quality</p>
+        <div>
+          <p class="text-slate-800 font-black mb-2" style="font-size:2.4rem;">Real</p>
+          <p class="text-slate-500 text-sm leading-relaxed">A network built on intentional follows — higher-quality community from day one because every connection was chosen.</p>
+        </div>
+      </div>
+
+      <!-- Metric: Retention Loop -->
+      <div class="bg-pink-50 border border-pink-100 rounded-2xl p-6 flex flex-col justify-between">
+        <p class="text-pink-600 text-xs font-semibold uppercase tracking-wider mb-3">Retention Engine</p>
+        <div>
+          <p class="text-slate-800 font-black mb-2" style="font-size:2.4rem;">Loop</p>
+          <p class="text-slate-500 text-sm leading-relaxed">Post → follow → engage. A tight social loop that brings users back because the interactions are worth returning for.</p>
+        </div>
+      </div>
+
+      <!-- ROI Banner -->
+      <div class="sl-banner bg-gradient-to-r from-indigo-600 to-violet-600 rounded-2xl p-6 flex items-center">
+        <div>
+          <p class="text-indigo-200 text-xs font-semibold uppercase tracking-wider mb-2">Platform Promise</p>
+          <p class="text-white text-base font-semibold leading-relaxed">Every design decision reduces friction and raises the quality of connection — so users stay longer, post more, and grow their network naturally over time.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
