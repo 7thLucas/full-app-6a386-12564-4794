@@ -58,7 +58,7 @@ An affordable, open social network that gives entrepreneurs fair access to audie
 ## Open Items (to resolve in onboarding)
 - [x] Problem statement (restrictive platforms, expensive ads, unfair to entrepreneurs)
 - [x] App name (SpinCity)
-- [ ] Color scheme / brand palette (awaiting image resubmission from user)
+- [x] Color scheme / brand palette (vivid oranges, purples, and teals — established via Designer)
 - [x] Target audience (everyone; primary — entrepreneurs, founders, small business owners)
 - [x] The one thing the app does brilliantly on day one (inviting home feed: colorful, placeholder cards, right-to-left profile river)
 - [ ] Monetization approach (if any)
