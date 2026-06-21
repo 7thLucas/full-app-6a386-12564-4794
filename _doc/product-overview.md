@@ -23,12 +23,12 @@ TBD — to be defined during onboarding (A1 goal questions).
 ---
 
 ## Problem Being Solved
-TBD — to be defined during onboarding.
+Existing social platforms are **restrictive and expensive for advertising**, making them inaccessible and unfair to upcoming entrepreneurs. Small business owners and early-stage founders cannot afford to pay the high ad rates that major platforms charge, and platform policies often work against them rather than for them. The playing field is tilted toward established brands with large budgets.
 
 ---
 
 ## Core Value Proposition
-TBD — to be defined during onboarding.
+An affordable, open social network that gives entrepreneurs fair access to audience-building tools — lower ad costs, fewer restrictions, and a platform designed with the emerging business owner in mind rather than against them.
 
 ---
 
