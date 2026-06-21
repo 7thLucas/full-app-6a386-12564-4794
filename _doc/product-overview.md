@@ -43,8 +43,8 @@ An affordable, open social network that gives entrepreneurs fair access to audie
 
 ## Positioning & Tone
 - **Category**: Social networking / community platform
-- **Tone**: TBD
-- **Differentiator**: TBD
+- **Tone**: Warm, colorful, inviting — the platform that feels like home from the first scroll
+- **Differentiator**: A first-impression feed that signals belonging before a single follow is made — vibrant placeholder cards, a right-to-left scrolling profile river, and entrepreneur-friendly ad pricing that big platforms won't match
 
 ---
 
