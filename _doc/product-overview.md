@@ -55,6 +55,6 @@ TBD — the single most important thing the app does on day one will be confirme
 - [x] Problem statement (restrictive platforms, expensive ads, unfair to entrepreneurs)
 - [ ] App name
 - [ ] Color scheme / brand palette (awaiting image resubmission from user)
-- [ ] Target audience and user personas
+- [x] Target audience (everyone; primary — entrepreneurs, founders, small business owners)
 - [ ] The one thing the app does brilliantly on day one
 - [ ] Monetization approach (if any)
