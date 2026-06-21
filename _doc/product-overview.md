@@ -33,7 +33,11 @@ An affordable, open social network that gives entrepreneurs fair access to audie
 ---
 
 ## MVP Feature Set
-TBD — the single most important thing the app does on day one will be confirmed during onboarding.
+**Day-One Experience: The Inviting Home Feed**
+- A clean, colorful, visually vibrant social feed designed to make every new user feel like they've found a community they belong to
+- Placeholder content cards pre-populated on first load so the feed never feels empty or cold to a new arrival
+- A horizontal scrolling profile-picture strip flowing **right to left** — surfacing people to follow at a glance, above the main feed
+- Core social loop underneath: post, follow, engage
 
 ---
 
