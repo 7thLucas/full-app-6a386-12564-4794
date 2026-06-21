@@ -52,6 +52,7 @@ TBD — the single most important thing the app does on day one will be confirme
 ---
 
 ## Open Items (to resolve in onboarding)
+- [x] Problem statement (restrictive platforms, expensive ads, unfair to entrepreneurs)
 - [ ] App name
 - [ ] Color scheme / brand palette (awaiting image resubmission from user)
 - [ ] Target audience and user personas
