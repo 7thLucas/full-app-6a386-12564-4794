@@ -1,0 +1,71 @@
+<style>
+.mode-landscape .sl-bottom { flex-direction: row; gap: 1rem; }
+.mode-portrait .sl-bottom { flex-direction: column; gap: 0.75rem; }
+.mode-landscape .sl-bottom > div { flex: 1; }
+.mode-portrait .sl-bottom > div { width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10">
+
+    <!-- Header -->
+    <div class="flex items-start justify-between mb-4">
+      <div>
+        <p class="text-indigo-600 text-xs font-bold tracking-widest uppercase mb-1">North Star</p>
+        <h2 class="text-slate-900 text-2xl font-black">Weekly Verified Operations</h2>
+      </div>
+      <span class="bg-amber-100 text-amber-700 text-xs font-bold px-3 py-1.5 rounded-full shrink-0 ml-4">
+        Projected impact — based on your inputs
+      </span>
+    </div>
+
+    <!-- Verified operation definition -->
+    <div class="bg-slate-900 rounded-2xl p-5 mb-3">
+      <p class="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-1">Verified Operation</p>
+      <h3 class="text-white text-lg font-bold mb-1">Meaningful Interaction Completed</h3>
+      <p class="text-slate-300 text-sm leading-relaxed">
+        A post published, a follow actioned, or a comment / reaction submitted by a real user in the deployed app. Logins and page views are excluded — only completed social actions count.
+      </p>
+    </div>
+
+    <!-- Formula -->
+    <div class="bg-indigo-50 border border-indigo-100 rounded-2xl p-5 mb-3">
+      <p class="text-indigo-600 text-xs font-semibold uppercase tracking-wider mb-3">Weekly Volume Formula</p>
+      <div class="flex flex-wrap items-center gap-3">
+        <div class="bg-amber-100 border border-amber-300 rounded-xl px-4 py-2 text-center">
+          <p class="text-amber-700 text-xs font-semibold mb-0.5">Assumption — adjust this</p>
+          <p class="text-slate-800 text-lg font-black">Active users / wk</p>
+        </div>
+        <span class="text-slate-400 text-xl font-bold">×</span>
+        <div class="bg-amber-100 border border-amber-300 rounded-xl px-4 py-2 text-center">
+          <p class="text-amber-700 text-xs font-semibold mb-0.5">Assumption — adjust this</p>
+          <p class="text-slate-800 text-lg font-black">Actions / user / wk</p>
+        </div>
+        <span class="text-slate-400 text-xl font-bold">=</span>
+        <div class="bg-indigo-600 rounded-xl px-5 py-2 text-center">
+          <p class="text-indigo-200 text-xs font-semibold mb-0.5">Weekly Verified</p>
+          <p class="text-white text-lg font-black">Operations / wk</p>
+        </div>
+      </div>
+      <p class="text-slate-500 text-xs mt-3 italic">
+        Example: 500 active users × 8 interactions each = <strong class="text-slate-700">4,000 verified operations / week</strong>
+      </p>
+    </div>
+
+    <!-- Value blocks -->
+    <div class="sl-bottom flex flex-1">
+      <div class="bg-violet-50 border border-violet-100 rounded-2xl p-5 flex flex-col">
+        <p class="text-violet-600 text-xs font-semibold uppercase tracking-wider mb-2">Value per Operation</p>
+        <p class="text-slate-700 text-sm leading-relaxed">
+          Each interaction strengthens the social loop — increasing time-on-platform, network effect value, and future monetisation potential. Anchor to your chosen revenue model once confirmed to produce a per-operation value.
+        </p>
+      </div>
+      <div class="bg-pink-50 border border-pink-100 rounded-2xl p-5 flex flex-col">
+        <p class="text-pink-600 text-xs font-semibold uppercase tracking-wider mb-2">Annual Platform Value</p>
+        <p class="text-slate-700 text-sm leading-relaxed">
+          WVO × value per interaction × 52 weeks = projected annual platform impact. Fill in the assumption chips above with your real numbers to see your actual north star figure.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
