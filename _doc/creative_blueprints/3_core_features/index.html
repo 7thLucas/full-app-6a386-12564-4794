@@ -1,0 +1,88 @@
+<style>
+.mode-landscape .sl-grid { grid-template-columns: repeat(3, 1fr); }
+.mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10">
+
+    <!-- Header row -->
+    <div class="flex items-start justify-between mb-5">
+      <div>
+        <p class="text-indigo-600 text-xs font-bold tracking-widest uppercase mb-1">Core Features</p>
+        <h2 class="text-slate-900 text-2xl font-black">Built for the social loop</h2>
+      </div>
+      <div class="flex gap-2 mt-1">
+        <span class="bg-indigo-600 text-white text-xs font-semibold px-3 py-1.5 rounded-full">Content Creators</span>
+        <span class="bg-slate-100 text-slate-500 text-xs font-semibold px-3 py-1.5 rounded-full">Community Members</span>
+      </div>
+    </div>
+
+    <!-- Feature grid -->
+    <div class="sl-grid grid gap-3 flex-1">
+
+      <div class="bg-indigo-50 border border-indigo-100 rounded-2xl p-5 flex flex-col">
+        <div class="w-9 h-9 bg-indigo-600 rounded-xl flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+          </svg>
+        </div>
+        <h3 class="text-slate-800 font-bold text-sm mb-1">User Profiles</h3>
+        <p class="text-slate-500 text-xs leading-relaxed">Personalised profiles with bio, avatar, and curated post history to express identity.</p>
+      </div>
+
+      <div class="bg-violet-50 border border-violet-100 rounded-2xl p-5 flex flex-col">
+        <div class="w-9 h-9 bg-violet-600 rounded-xl flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M3 12h18M3 6h18M3 18h18"/>
+          </svg>
+        </div>
+        <h3 class="text-slate-800 font-bold text-sm mb-1">Content Feed</h3>
+        <p class="text-slate-500 text-xs leading-relaxed">A relevance-ranked feed from accounts the user follows — signal over volume, every time.</p>
+      </div>
+
+      <div class="bg-pink-50 border border-pink-100 rounded-2xl p-5 flex flex-col">
+        <div class="w-9 h-9 bg-pink-500 rounded-xl flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+        </div>
+        <h3 class="text-slate-800 font-bold text-sm mb-1">Follow & Connect</h3>
+        <p class="text-slate-500 text-xs leading-relaxed">Follow users or topics to curate the feed; build a network of intentional connections at your pace.</p>
+      </div>
+
+      <div class="bg-amber-50 border border-amber-100 rounded-2xl p-5 flex flex-col">
+        <div class="w-9 h-9 bg-amber-500 rounded-xl flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+          </svg>
+        </div>
+        <h3 class="text-slate-800 font-bold text-sm mb-1">Content Creation</h3>
+        <p class="text-slate-500 text-xs leading-relaxed">Compose text posts, share links or media — fast, frictionless creation at the heart of the loop.</p>
+      </div>
+
+      <div class="bg-teal-50 border border-teal-100 rounded-2xl p-5 flex flex-col">
+        <div class="w-9 h-9 bg-teal-600 rounded-xl flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+            <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+          </svg>
+        </div>
+        <h3 class="text-slate-800 font-bold text-sm mb-1">Notifications</h3>
+        <p class="text-slate-500 text-xs leading-relaxed">Timely alerts for new followers, reactions, and replies — surfaced by relevance, never noise.</p>
+      </div>
+
+      <div class="bg-sky-50 border border-sky-100 rounded-2xl p-5 flex flex-col">
+        <div class="w-9 h-9 bg-sky-600 rounded-xl flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+        </div>
+        <h3 class="text-slate-800 font-bold text-sm mb-1">Engagement</h3>
+        <p class="text-slate-500 text-xs leading-relaxed">React to and comment on posts; direct, lightweight engagement that keeps the conversation alive.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
