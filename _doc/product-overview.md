@@ -4,7 +4,7 @@
 A **social network platform** — a web-based application where users can connect, share content, follow each other, and engage through feeds, profiles, and community interactions.
 
 ## Status
-Discovery complete — all core product details confirmed. Ready for initial build.
+**MVP live.** Initial build complete — home feed, profile strip, auth, core social loop, and engagement features are deployed and running.
 
 ---
 
