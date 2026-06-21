@@ -60,5 +60,5 @@ An affordable, open social network that gives entrepreneurs fair access to audie
 - [ ] App name
 - [ ] Color scheme / brand palette (awaiting image resubmission from user)
 - [x] Target audience (everyone; primary — entrepreneurs, founders, small business owners)
-- [ ] The one thing the app does brilliantly on day one
+- [x] The one thing the app does brilliantly on day one (inviting home feed: colorful, placeholder cards, right-to-left profile river)
 - [ ] Monetization approach (if any)
