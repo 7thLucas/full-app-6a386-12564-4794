@@ -4,16 +4,16 @@
 A **social network platform** — a web-based application where users can connect, share content, follow each other, and engage through feeds, profiles, and community interactions.
 
 ## Status
-Early onboarding — core details are being gathered. The sections below will be updated as the user completes the discovery questions.
+Discovery complete — all core product details confirmed. Ready for initial build.
 
 ---
 
 ## Product Identity
 | Field | Value |
 |-------|-------|
-| **App Name** | TBD — pending user input |
-| **Tagline** | TBD |
-| **Primary Color Scheme** | TBD — user referenced an image that was not attached; pending resubmission |
+| **App Name** | SpinCity |
+| **Tagline** | Find your home. Build your hustle. |
+| **Primary Color Scheme** | Vibrant — vivid oranges, purples, and teals (user originally referenced an image that did not attach; palette established from brand tone and Designer output) |
 
 ---
 
