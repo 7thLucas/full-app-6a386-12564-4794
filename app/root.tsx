@@ -36,16 +36,6 @@ function ErrorReporter({ error }: { error: any }) {
 export function ErrorBoundary() {
   const error = useRouteError();
 
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    const key = "__qb_error_reloads";
-    const count = parseInt(sessionStorage.getItem(key) || "0", 10);
-    if (count < 2) {
-      sessionStorage.setItem(key, String(count + 1));
-      window.location.reload();
-    }
-  }, []);
-
   return (
     <html lang="en" suppressHydrationWarning>
       <head>

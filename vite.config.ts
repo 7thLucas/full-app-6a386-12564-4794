@@ -21,6 +21,12 @@ export default defineConfig({
       },
     ],
   },
+  optimizeDeps: {
+    // Pre-bundle client dependencies at server start so Vite does not
+    // discover them mid-render and force a full-page reload during
+    // hydration (which would trip the route ErrorBoundary).
+    include: ["next-themes", "lucide-react", "clsx", "tailwind-merge", "axios"],
+  },
   ssr: {
     noExternal: [
       // "@radix-ui",
